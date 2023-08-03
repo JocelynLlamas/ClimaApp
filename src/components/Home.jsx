@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
 import { Button } from 'antd';
-=======
->>>>>>> dcacb526b58e18f151481fa8dba4320668fc0a6b
 
 const Home = () => {
 
@@ -39,11 +36,9 @@ const Home = () => {
 
     return (
         <div>
-<<<<<<< HEAD
             <h1 className="bg-blue-500 text-white p-5">MY APP</h1>
-=======
             <h1>MY APP</h1>
->>>>>>> dcacb526b58e18f151481fa8dba4320668fc0a6b
+
             <p>City</p>
             <input
                 type="text"
@@ -52,10 +47,7 @@ const Home = () => {
                 required
             />
             <p>Degrees (C/F)</p>
-<<<<<<< HEAD
             <Button type="primary">¡Hola, Ant Design!</Button>
-=======
->>>>>>> dcacb526b58e18f151481fa8dba4320668fc0a6b
             <input
                 type="text"
                 value={degrees}
