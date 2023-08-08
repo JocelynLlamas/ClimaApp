@@ -1,0 +1,23 @@
+Header{
+    display: flex; 
+    align-items: center;
+    background-color: #1E1E1E !important;
+    height: 100px; 
+    padding: 4%;
+}
+
+.logo{
+    display: flex; 
+    align-items: center;
+    background-color: #1E1E1E;
+    height: 100px; 
+    width: auto;
+    /* padding: 4% */
+}
+
+.date{
+    color: white;
+    margin-left: 2%;
+    text-decoration: underline;
+    text-decoration-color: #656565;
+}
