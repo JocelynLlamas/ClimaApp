@@ -18,3 +18,34 @@ h1 {
     align-items: center;
     justify-content: center;
 }
+
+.card {
+    background-image: linear-gradient(to bottom right, #AD36CB, #333333);
+}
+
+.icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.cityName {
+    margin-bottom: 0px;
+    display: flex;
+    color: white;
+    font-weight: lighter;
+}
+
+.temperature {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6%;
+}
+
+.temp {
+    font-size: 300%;
+    font-weight: lighter;
+}

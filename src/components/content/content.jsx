@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Switch, Col, Row, Input } from 'antd';
+import { Switch, Col, Row, Input, Card } from 'antd';
 import { SearchOutlined } from '@ant-design/icons';
 import './content.css'
 
@@ -97,6 +97,55 @@ const Content = () => {
                         required
                         onKeyPress={handleKeyPress}
                     />
+                </Col>
+            </Row>
+
+            <Row justify="center" style={{ padding: '2%' }}>
+                <Col span={12}>
+                    {result && (
+                        <Card className='card' bordered={false}>
+                            <Row>
+                                <Col span={24}>
+                                    <h1 className='cityName'>{result.name}<i className="fa-solid fa-location-dot icon"></i></h1>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col span={24} className='temperature'>
+                                    <h1 className='temp'> <i class="fa-solid fa-temperature-half"></i> {result.main.temp} °{units}</h1>
+                                    <img
+                                        src={`https://openweathermap.org/img/wn/${result.weather[0].icon}@2x.png`}
+                                        alt="Icono del clima"
+                                    />
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col span={6} className='temperature'>
+                                    <Row>
+                                        <Col span={24}><h3 style={{ fontWeight: 'lighter', textAlign: 'center' }}>HUMIDITY</h3></Col>
+                                        <Col span={24} style={{ textAlign: 'center' }}>{result.main.humidity}%</Col>
+                                    </Row>
+                                </Col>
+                                <Col span={6} className='temperature'>
+                                    <Row>
+                                        <Col span={24}><h3 style={{ fontWeight: 'lighter', textAlign: 'center' }}>VISIBILITY</h3></Col>
+                                        <Col span={24} style={{ textAlign: 'center' }}>{result.visibility} Km</Col>
+                                    </Row>
+                                </Col>
+                                <Col span={6} className='temperature'>
+                                    <Row>
+                                        <Col span={24}><h3 style={{ fontWeight: 'lighter', textAlign: 'center' }}>AIR PRESSURE</h3></Col>
+                                        <Col span={24} style={{ textAlign: 'center' }}>{result.main.pressure} hPa</Col>
+                                    </Row>
+                                </Col>
+                                <Col span={6} className='temperature'>
+                                    <Row>
+                                        <Col span={24}><h3 style={{ fontWeight: 'lighter', textAlign: 'center' }}>WIND</h3></Col>
+                                        <Col span={24} style={{ textAlign: 'center' }}>{result.wind.speed} mph</Col>
+                                    </Row>
+                                </Col>
+                            </Row>
+                        </Card>
+                    )}
                 </Col>
             </Row>
 
