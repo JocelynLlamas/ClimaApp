@@ -1,0 +1,20 @@
+h1 {
+    margin: 0;
+}
+
+.content {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.degreesText {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
