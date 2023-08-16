@@ -1,4 +1,4 @@
-![Imagen](https://github.com/JocelynLlamas/ClimaApp/blob/main/src/assets/repoTemplate.png)
+![Imagen](https://github.com/JocelynLlamas/ClimaApp/blob/master/src/assets/repoTemplate.png)
 
 ## Available Scripts
 
