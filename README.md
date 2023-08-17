@@ -1,5 +1,5 @@
 ![Imagen](https://github.com/JocelynLlamas/ClimaApp/blob/master/src/assets/repoTemplate.png)
-![VideoDemostration](https://github.com/JocelynLlamas/ClimaApp/blob/master/src/assets/video/video.mp4)
+![VideoDemostration](https://www.youtube.com/watch?v=Lv8580Y0u8Y)
 
 ## Available Scripts
 
