@@ -4,6 +4,12 @@
 
 [https://www.youtube.com/watch?v=Lv8580Y0u8Y](https://www.youtube.com/watch?v=Lv8580Y0u8Y)
 
+This application calls an API built in Python to fetch the weather information for a specific city. The React app interacts with the weather API to provide real-time weather data.
+
+To see the Python API used in this application, you can visit the following repository: [ClimaAPI](https://github.com/JocelynLlamas/ClimaAPI)
+
+Feel free to explore the code and contribute to the development of this weather application!
+
 ## Available Scripts
 
 In the project directory, you can run:
