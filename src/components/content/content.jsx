@@ -59,7 +59,6 @@ const Content = () => {
             )
             .then((data) => {
                 setResult(data.result)
-                console.log(data.result)
                 // const clima = data.resultado.weather[0].main;
                 // const descripcion = data.resultado.weather[0].description;
                 // const temperatura = data.resultado.main.temp;
